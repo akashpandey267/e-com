@@ -1,0 +1,239 @@
+
+body {
+  font-family: "Lato", sans-serif;
+  background-color: #E5E4E2;
+}
+.nav1 {
+background-color: liteblue;
+box-shadow: 2px 2px 10px black;
+border-radius: 5px;
+}
+.nav {
+display: flex;
+justify-content: space-between;
+margin-top: 20px;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #111;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+  }
+  
+  .sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+  color: #f1f1f1;
+  background-color: #A52A2A;
+  }
+  .sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 60px;
+  margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 15px;}
+  }
+  .logo img {
+  width: 30%;
+  margin-top: 10px;
+  padding-right: 70px;
+  height: 35px;
+  font-weight: bold;
+  }
+  .p {
+  margin-right: 65px;
+  font-weight: bold;
+  }
+ 
+  .search {
+  margin-top: 10px;
+  height: 20px;
+  display: block;
+  justify-content: center;
+  margin-left: 30px;
+  width: 80%;
+  height: 30px;
+  }
+  .search I {
+  
+  }
+  .btn1 {
+  Box-sizeing: 40px;
+  color: black;
+  background-color: transparent;
+  height: 30px;
+  margin-top: 15px
+
+  }
+  
+.btn1:hover{
+box-shadow: 2px 2px 10px black;
+background-color: white;
+color: black;
+}
+ .card {
+ width: 80px;
+ background-color: transparent;
+ margin-left: 10px;
+ border-radius: 5px;
+display: inline-block;
+margin-right: px;
+box-shadow: 2px 2px 10px black;
+box-sizing: border-box;
+ 
+ }
+ .card:hover {
+ box-shadow: 2px 2px 10px #A52A2A;
+ 
+ }
+ .image img {
+ width: 100%;
+ }
+ 
+ 
+ .h1 h2{
+ width: 100%;
+ font-size: 17px;
+ text-align: center;
+ color: red;
+ text-transform: uppercase;
+ }
+ .des p{
+ width: 100%;
+ text-align: center;
+ font-weight: bold;
+ font-size: 10px;
+ text-transform: uppercase;
+ margin-bottom: 0;
+ color: blue;
+ }
+ .section img{
+ height: 200px;
+ border: 5px solid yellow;
+ border-radius: 5px;
+ }
+ .main1 {
+ display: flex;
+ justify-content: space-around;
+ }
+ .cards{
+ 
+ width: 45%;
+ display: inline-block;
+ justify-content:space-around;
+ background-color: gray;
+ margin-top: 30px;
+ box-shadow: 2px 2px 10px black;
+ border-radius: 5px;
+ }
+ 
+ .cards:hover{
+ box-shadow: 2px 2px 10px red;
+ 
+ }
+ .images img{
+ width: 100%;
+ border-radius: 5px;
+ 
+ }
+ 
+ .title{
+ text-align: center;
+ 
+ }
+ .des{
+ text-align: center
+ }
+ 
+ .des button {
+ margin-top: 20px;
+ margin-bottom: 1px;
+ color: white;
+ background-color: black;
+ box-shadow: 2px 2px 10px white;
+ }
+ .des button ad{
+ margin-top: 1px;
+ margin-bottom: 20px;
+ color: white;
+ background-color: black;
+ box-shadow: 2px 2px 10px white;
+ }
+ .des button:hover {
+ background-color: white;
+ color: black;
+box-shadow: 2px 2px 10px red;
+ }
+ 
+ .w3-section {
+ border: 1px solid black;
+ 
+ }
+ 
+ .footer {
+ margin: auto;
+ margin-top: 80px;
+ height: 100px;
+ width: 100%;
+ background-color: gray;
+ border-radius: 5px;
+ 
+ }
+ .icon {
+margin: auto;
+ display: flex;
+ justify-content: space-evenly;
+ font-size: 30px;
+ 
+ }
+ .icon a {
+ margin-top: 20px;
+ color: white;
+ font-size: 20px;
+ border: 1px solid black;
+ background-color: black;
+ height: 40px;
+ box-shadow: 2px 2px 10px blue;
+ border-radius: 5px;
+ }
+ .icon a:hover {
+ box-shadow: 2px 2px 10px red;
+ color: blue;
+ background-color: white;
+ 
+ }
+ .icon p{
+ font-size: 3px;
+ margin-top: 8px;
+ margin-bottom: 30px;
+ }
+ 
+.cp{
+text-transform: uppercase;
+margin-top: 10px;
+text-align: center;
+
+}
+ 
+ 
+ .btn {
+ margin-buttom: 20px;
+ }
